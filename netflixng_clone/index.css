@@ -1,0 +1,572 @@
+body {
+    background-color: black;
+    margin: 0;
+    
+}
+
+hr {
+    color: rgba(128, 128, 128, 0.2);
+    border: solid;
+    margin:1px;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+input {
+    font-size: 30px;
+}
+
+.first-container {
+    position: relative;
+    width:90%;
+    height: auto;
+}
+
+.background-image {
+    background: url(../netflixng_clone/Images/show-wallpaper.jpg);
+    max-width: 150%;
+    max-height: 750px;
+    /*opacity: 0.7;*/
+    
+}
+
+.overlay-container {
+    z-index: 1; /*Sit on top*/
+    left: 0;
+    top: 0;
+    width: 100%; /*width of the container to be overlayed or the height you want*/
+    height: 750px;/*height of the container to be overlayed or the height you want*/
+    overflow:hidden;/*Enable scroll if needed*/
+    background-color: rgb(0,0,0);/*Fallback color*/
+    background-color: rgba(0,0,0,0.7);
+
+}
+
+
+.netflix-logo{
+    position:absolute;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.sign-in-button {
+    position:absolute;
+    margin-top: 30px;
+    right: 16px;
+    margin-right: 55px;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    font-size: 1.3vw;
+    font-family:sans-serif;
+    padding: 10px;
+    border-radius: 8px;
+    size: 10px;
+    width: 130%;
+
+}
+
+.container{
+    color:white;
+    position: absolute;
+    top:22vw;
+    left: 49.5vw;
+    transform: translate(-50%, -50%);
+}
+
+.para1 {
+    font-family: sans-serif;
+    font-size:3.8vw;
+    font-weight: bolder;
+    text-align:center;
+
+}
+
+.para2 {
+    font-family:sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    text-align:center;
+    margin-top: 1vw;
+}
+
+.para3 {
+    font-family: sans-serif;
+    font-size: 1.2vw;
+    font-weight: 300;
+    text-align: center;
+    margin-top:1.6vw;
+}
+::placeholder {
+    font-size: 20px;
+    padding-left: 10px;
+}
+.text-box {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 60px;
+    margin-top:20px;
+}
+
+.get-started {
+    cursor:pointer;
+    position: absolute;
+    top:110%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width:31%;
+    height: 65px;
+    margin-top:20px;
+    border-top:none;
+    border-right: none;
+    border-bottom:none;
+    background-color: red;
+    color:white;
+    font-size: 1.5vw;
+    font-family: sans-serif;
+}
+
+.second-container {
+    width:90%;
+    height: 27vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5vw;
+    
+    
+}
+
+.text-container {
+    margin-left: 19.5vw;
+    margin-top: 8.5vw;
+}
+
+.para4 {
+    font-family: sans-serif;
+    font-size:3vw;
+    font-weight: bolder;
+    color:white;
+    
+}
+
+.para5 {
+    font-family:sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: 1vw;
+    color: white;
+}
+
+.tv-container {
+    margin-top: 0.9vw;
+}
+
+.third-container{
+    width:90%;
+    height: 27vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5vw;
+    
+}
+
+.para6 {
+    font-family: sans-serif;
+    font-size:3vw;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+.para7 {
+    font-family:sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: 1vw;
+    color:white;
+}
+.text-container1 {
+    margin-top:8vw;
+    margin-right:12vw;
+}
+
+.phone-container {
+    margin-top: 1.8vw;
+    margin-left: 14vw;
+    position:relative;
+}
+
+.download-container {
+    background-color: black;
+    border-radius: 15px;
+    border: 2px solid gray;
+    width: 23vw;
+    height: 6vw;
+    margin-left:4vw;
+    position:absolute;
+    left:0px;
+    top: 0px;
+    z-index: 1000;
+    margin-top: 15.4vw;
+    
+}
+
+.background-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.objects {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    z-index: 1000;
+
+}
+
+.fourth-container {
+    width:90%;
+    height: 12vw;
+
+}
+
+.text-container2 {
+    margin-top: 3vw;
+    margin-left:19.5vw;
+    margin-right: 40vw;
+    margin-bottom: 2.5vw;
+}
+
+.para8 {
+    font-family: sans-serif;
+    font-size:3vw;
+    font-weight: bolder;
+    color:white;
+    
+}
+
+.para9 {
+    font-family:sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: 1vw;
+    color: white;
+}
+
+.fifth-container {
+    width:90%;
+    height: 510px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5vw;
+    
+}
+
+.animation-picture{
+    margin-top: 5vw;
+    margin-left: 17vw;
+}
+
+.text-container3 {
+    margin-top:8vw;
+    margin-right:15vw;
+}
+
+.para10 {
+    font-family: sans-serif;
+    font-size:3vw;
+    font-weight: bolder;
+    color: white;
+}
+
+.para11 {
+    font-family:sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: 1vw;
+    color:white;
+}
+
+.sixth-container {
+    width:90%;
+    height: 760px;
+}
+
+.para12 {
+    font-family: sans-serif;
+    font-size:3vw;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+    margin-left: 7vw;
+    margin-top: 3.5vw;
+}
+
+.question-one, .question-two, .question-three, .question-four, .question-five, .question-six {
+    margin-top: 2vw;
+    margin-left: 22vw;
+    margin-right: 15vw;
+    background-color: rgb(90, 81, 81);
+    height: 45px;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-top:15px;
+    padding-bottom: 5px;
+    color:white;
+}
+
+.question-two, .question-three, .question-four, .question-five, .question-six{
+    margin-top:6px;
+}
+
+.plus {
+    float:right;
+    font-size: 40px;
+    margin-right: 25px;
+    
+}
+
+.answer-container {
+    display:none;
+}
+.answer-one {
+    margin-top: 0;
+    margin-left: 22vw;
+    margin-right: 15vw;
+    background-color: rgb(90, 81, 81);
+    height: 300px;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-top:15px;
+    padding-bottom: 5px;
+    color:white;
+}
+
+
+.answer-three {
+    margin-top: 0;
+    margin-left: 22vw;
+    margin-right: 15vw;
+    background-color: rgb(90, 81, 81);
+    height: 350px;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-top:15px;
+    padding-bottom: 5px;
+    color:white;
+}
+
+.answer-six {
+    margin-top: 0;
+    margin-left: 22vw;
+    margin-right: 15vw;
+    background-color: rgb(90, 81, 81);
+    height: 250px;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-top:15px;
+    padding-bottom: 5px;
+    color:white;
+}
+
+.answer-two, .answer-four, .answer-five {
+    margin-top: 0;
+    margin-left: 22vw;
+    margin-right: 15vw;
+    background-color: rgb(90, 81, 81);
+    height: 150px;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-top:15px;
+    padding-bottom: 5px;
+    color:white;
+}
+
+.para3a {
+    font-family: sans-serif;
+    font-size: 1.2vw;
+    font-weight: 300;
+    margin-left: 29vw;
+    margin-top:3vw;
+    color:white;
+}
+
+.text-box1 {
+    margin-left: 25.5vw;
+    width: 50%;
+    height: 60px;
+    margin-top:20px;
+}
+
+.get-started1 {
+    cursor:pointer;
+    position: absolute;
+    transform: translate(-100%, -50%);
+    width:14%;
+    height: 65px;
+    padding-left:1px;
+    margin-left:1px;
+    margin-top:52px;
+    border-top:none;
+    border-right: none;
+    border-bottom:none;
+    background-color: red;
+    color:white;
+    font-size: 1.5vw;
+    font-family: sans-serif;
+}
+
+
+.seventh-container {
+    width:90%;
+    height: 310px;
+    /*display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: vw;*/
+    
+}
+
+.para13 {
+    margin-top: 3vw;
+    margin-left: 20vw;
+}
+
+.grid-container {
+    margin-left: 20vw;
+    margin-top: 2vw;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0.1vw;
+}
+.questions,.FAQ, .investor-relation, .privacy, .speed-test {
+    text-decoration: none;
+    color: gray;
+    font-family: sans-serif;
+    font-size:14px;
+}
+
+#questions,#FAQ, #investor-relation, #privacy, #speed-test {
+    margin-top: 0.8vw;
+}
+
+.questions:hover, .FAQ:hover, .investor-relation:hover, .privacy:hover, 
+.speed-test:hover {
+    text-decoration: underline;
+}
+
+.help-center, .jobs, .cookie-pref, .legal-notice {
+    text-decoration: none;
+    color: gray;
+    font-family: sans-serif;
+    font-size:14px;
+}
+
+#help-center, #jobs, #cookie-pref, #legal-notice {
+    margin-top: 0.8vw;
+}
+
+.help-center:hover, .jobs:hover, .cookie-pref:hover, .legal-notice:hover{
+    text-decoration: underline;
+}
+.account, .ways-to-watch, .corp-info, .only-on {
+    text-decoration: none;
+    color: gray;
+    font-family: sans-serif;
+    font-size:14px;
+}
+
+#account, #ways-to-watch, #corp-info, #only-on{
+    margin-top: 0.8vw;
+}
+
+.account:hover, .ways-to-watch:hover, .corp-info:hover, .only-on:hover{
+    text-decoration: underline;
+}
+
+.media-center, .terms, .contact-us {
+    text-decoration: none;
+    color: gray;
+    font-family: sans-serif;
+    font-size:14px;
+}
+
+#media-center, #terms, #contact-us{
+    margin-top: 0.8vw;
+}
+
+.media-center:hover, .terms:hover, .contact-us:hover{
+    text-decoration: underline;
+}
+
+#netflix-ng {
+    margin-top: 2vw;
+    margin-left: 20vw;
+    color: rgb(128, 128, 128);
+    font-family: sans-serif;
+    font-size:12.5px;
+}
+
+
+
+
+
+
+
+
+/*.modal {
+    display:none;
+    position:fixed;
+    z-index:1;
+    padding:100px;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow:auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    position:relative;
+    background-color: grey;
+    margin:auto;
+    padding: 0;
+    border: 2px solid black;
+    width:80%;
+}
+
+.modal-text {
+    color:black;
+    font-size: 30px;
+    font-family:sans-serif;
+    top: 50px;
+    bottom: 50px;
+}
+
+.modal-content {
+    animation: error 0.4s;
+    -webkit-animation: error 0.4s;
+}
+
+@keyframes error {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+@-webkit-keyframes erroe {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}*/
